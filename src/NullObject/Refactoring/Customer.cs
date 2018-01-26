@@ -44,8 +44,8 @@ namespace NullObject.Refactoring
     public class NullBook : Book , NULL
     {
 
-        public override string Name { get => "Empty"; set => base.Name = value; }
+        public override string Name { get { return "Empty"; } set { base.Name = value; } }
 
-        public override int Price { get => 0; set => base.Price = value; }
+        public override int Price { get { return 0; } set { base.Price = value; } }
     }
 }

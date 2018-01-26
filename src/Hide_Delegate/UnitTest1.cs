@@ -21,8 +21,8 @@ namespace Hide_Delegate
             PersonN mannger = new PersonN() { Name = "Amy" };
             p1.SetDepartment(new Normal.Department(mannger));
 
-            //這裡就是壞味道 讓外部知道你呼叫的順序 所以我們需要重購在封裝
             PersonN except = new PersonN() { Name = "Amy" };
+            //這裡就是壞味道 讓外部知道你呼叫的順序 所以我們需要重購在封裝
             PersonN reuslt = p1.GetDepartment().GetMannger();
 
 
