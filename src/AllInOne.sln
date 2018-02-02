@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitTemporaryVariable", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveMethod", "MoveMethod\MoveMethod.csproj", "{197F1AA4-8523-40BF-983D-78D9525CE85F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceArrayWithObject", "ReplaceArrayWithObject\ReplaceArrayWithObject.csproj", "{143FED59-382E-49E8-A680-6F7C8DD0ED70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{197F1AA4-8523-40BF-983D-78D9525CE85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{197F1AA4-8523-40BF-983D-78D9525CE85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{197F1AA4-8523-40BF-983D-78D9525CE85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143FED59-382E-49E8-A680-6F7C8DD0ED70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143FED59-382E-49E8-A680-6F7C8DD0ED70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143FED59-382E-49E8-A680-6F7C8DD0ED70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143FED59-382E-49E8-A680-6F7C8DD0ED70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
