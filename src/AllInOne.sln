@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "NullObject\NullObject.csproj", "{1117E645-E842-4348-8AD3-54E47E15EF73}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveMethod", "MoveMethod\MoveMethod.csproj", "{197F1AA4-8523-40BF-983D-78D9525CE85F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceArrayWithObject", "ReplaceArrayWithObject\ReplaceArrayWithObject.csproj", "{143FED59-382E-49E8-A680-6F7C8DD0ED70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposeMethod", "ComposeMethod\ComposeMethod.csproj", "{B4D8F9F9-D871-4973-80D1-B559559960AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{143FED59-382E-49E8-A680-6F7C8DD0ED70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143FED59-382E-49E8-A680-6F7C8DD0ED70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143FED59-382E-49E8-A680-6F7C8DD0ED70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D8F9F9-D871-4973-80D1-B559559960AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D8F9F9-D871-4973-80D1-B559559960AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D8F9F9-D871-4973-80D1-B559559960AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D8F9F9-D871-4973-80D1-B559559960AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
